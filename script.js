@@ -29,9 +29,6 @@ function buttonClick() {
 }
 
 function buttonColor(step, x, y, color) {
-  container.querySelectorAll('button').forEach(function(item) {
-    item.style.background = 'none';
-  });
   for (let i = (x-step); i <= (x+step); i++) {
     for (let j = (y-step); j <= (y+step); j++) {
       const button = document.querySelector('button[data-x="' + i + '"][data-y="' + j + '"]' )
