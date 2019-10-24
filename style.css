@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container button {
+  text-align: center;
+  width: 2%;
+  background: none;
+}
